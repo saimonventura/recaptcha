@@ -24,7 +24,7 @@ export default function Home() {
           onChange={(token) => {
             navigator.clipboard.writeText(token);
             setToken(token);
-            snackbarControl.show("Token copiado para o clipboard");
+            alert("Token copiado para o clipboard");
           }}
           sitekey={"6LcwawIaAAAAAHmTEOLMqjIO0lEIEjV1lwSajYqt"}
         />
